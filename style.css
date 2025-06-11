@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+h1 {
+    border: 2px solid black;
+    margin: 0px;
+    padding: 10px;
+    font-size: 50px;
+    color: #bf1313;
+    text-align: center;
+}
