@@ -24,8 +24,32 @@ li {
     font-weight: 500;
 }
 
+li a {
+    text-decoration: none;
+    color: #CCD595;
+}
+
+#logo_cont {
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px
+}
+
+section h1 {
+    padding: 15px;
+    color: #798252 ;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
 body {
-    background-color: #f4f0ea;
+    background-color: #F4F0EA;
     color: #798252;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -35,7 +59,6 @@ body {
     padding: 2rem;
     background-color: #331F19;
     text-align: center;
-    width: 100%;
 }
 
 main {
@@ -57,16 +80,123 @@ h2 {
 }
 
 input[type="radio"], input[type="checkbox"] {
-    accent-color: #ccd595;
+    accent-color: #CCD595;
 }
 
-#logo_cont {
-    position: fixed;
-    bottom: 0;
-    right: 1rem;
-    z-index: 1000;
-    display: flex;
-    justify-content: flex-end;
-    width: 50px;
-    height: 50px
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #CCD595;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: #CBBBA7;
+}
+
+select {
+    cursor: pointer;
+    background-color: #CCD595;
+    color: #331F19;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #CCD595;
+    color: #331F19;
+    padding: 1rem;
+}
+
+
+td {
+    color: #331F19;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+tfoot td {
+    background-color: #331F19;
+    color: #798252;
+    padding: 1rem;
+}
+
+details {
+    background-color: #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #331F19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.3rem;
+}
+
+fieldset {
+    border: 2px solid #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #331F19;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #CCD595;
+    width: 100%;
+}
+
+button {
+    background-color: #CCD595;
+    border: none;
+    border-radius: 5px;
+    color: #331F19;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #331F19;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: #F4F0EA;
+}
+
+footer a {
+    text-decoration: none;
+    color: #CCD595;
 }
