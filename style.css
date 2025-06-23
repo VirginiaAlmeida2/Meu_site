@@ -6,6 +6,24 @@
     box-sizing: border-box;
 }
 
+ul {
+    position: fixed;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #331F19;
+    width: 100%;
+    z-index: 1000;
+}
+
+li {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 body {
     background-color: #f4f0ea;
     color: #798252;
@@ -13,10 +31,11 @@ body {
     font-weight: 400;
 }
 
-header {
+#intro  {
     padding: 2rem;
     background-color: #331F19;
     text-align: center;
+    width: 100%;
 }
 
 main {
@@ -41,4 +60,13 @@ input[type="radio"], input[type="checkbox"] {
     accent-color: #ccd595;
 }
 
-
+#logo_cont {
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px
+}
